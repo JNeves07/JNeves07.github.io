@@ -1,0 +1,105 @@
+{
+  "site": {
+    "language": "pt-BR",
+    "title": "João Marcelo | Desenvolvedor Back-End",
+    "description": "Portfólio de João Marcelo Neves de Lima, engenheiro de software e programador back-end em Caxias, Maranhão.",
+    "keywords": "PHP, Laravel, C#, Python, Docker, APIs, IoT, MySQL, .NET, portfólio"
+  },
+  "owner": {
+    "name": "João Marcelo Neves de Lima",
+    "short_name": "João Marcelo",
+    "role": "Programador back-end e engenheiro de software",
+    "lead": "Desenvolvo sistemas institucionais com PHP, Laravel e Docker na Fábrica de Software do UniFacema, em Caxias, Maranhão. Estou em busca de estágio ou vaga em desenvolvimento de sistemas.",
+    "resume": "curriculo-joao-marcelo.pdf",
+    "links": {
+      "github": "https://github.com/JNeves07",
+      "linkedin": "https://www.linkedin.com/in/joao-marcele-a30407336/",
+      "email": "mailto:marcelejoao7@gmail.com",
+      "whatsapp": "https://wa.me/5599981897798"
+    },
+    "api_card": {
+      "status": "200 OK",
+      "cargo": "Programador Back-End",
+      "onde": "Fábrica de Software, UniFacema",
+      "stack": ["PHP", "Laravel", "Docker", "Python", "MySQL"],
+      "formacao": ["Eng. de Software", "ADS"],
+      "status_value": "disponível para estágio"
+    }
+  },
+  "nav": [
+    {"label": "Projetos", "href": "#projetos"},
+    {"label": "Tecnologias", "href": "#tecnologias"},
+    {"label": "Sobre", "href": "#sobre"},
+    {"label": "Contato", "href": "#contato"}
+  ],
+  "projects": [
+    {
+      "name": "Sistema Acadêmico",
+      "description": "Sistema para organizar e controlar dados acadêmicos.",
+      "url": "https://github.com/JNeves07/Sistema-Academico",
+      "link_label": "Ver no GitHub"
+    },
+    {
+      "name": "Pokédex",
+      "description": "Aplicação que lista e exibe informações de Pokémon.",
+      "url": "https://github.com/JNeves07/pokedex",
+      "link_label": "Ver no GitHub"
+    },
+    {
+      "name": "Programação em Banco de Dados",
+      "description": "Exercícios de modelagem e consultas SQL.",
+      "url": "https://github.com/JNeves07/Programa-o-em-Banco-de-dados",
+      "link_label": "Ver no GitHub"
+    }
+  ],
+  "repositories_url": "https://github.com/JNeves07?tab=repositories",
+  "technologies": [
+    {"category": "Back-end", "items": "PHP, Laravel, Python, C#, .NET, ASP.NET e APIs REST"},
+    {"category": "Front-end", "items": "HTML5, CSS3, JavaScript, TypeScript, React, Bootstrap e Tailwind CSS"},
+    {"category": "Infra e dados", "items": "Docker, Docker Compose, Linux, Nginx, MySQL, PostgreSQL, SQL, Git e GitHub"},
+    {"category": "IoT", "items": "Sensores, microcontroladores e redes aplicadas à Internet das Coisas"},
+    {"category": "Método", "items": "Kanban, análise de dados e estruturas de dados com Python"}
+  ],
+  "about": {
+    "paragraphs": [
+      "Antes de programar, fui redator e professor. Por isso escrevo código claro e explico soluções técnicas de um jeito que qualquer pessoa da equipe entende.",
+      "Hoje trabalho no back-end de sistemas que organizam, controlam e analisam dados institucionais, e dou apoio ao front-end quando preciso."
+    ]
+  },
+  "experience": [
+    {
+      "title": "Programador Back-End",
+      "meta": "Fábrica de Software, UniFacema. De 2026 até hoje.",
+      "highlights": [
+        "Back-end de sistemas institucionais com PHP, Laravel, Docker e TypeScript.",
+        "Funcionalidades de organização, controle e análise de dados.",
+        "Apoio ao front-end com HTML5, CSS3, JavaScript e React.",
+        "Gestão de redes e configuração de servidores físicos e virtuais."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Engenharia de Software",
+      "meta": "Universidade Anhanguera (EAD), 7º período. Conclusão em jul/2026."
+    },
+    {
+      "title": "Análise e Desenvolvimento de Sistemas",
+      "meta": "Centro Universitário de Ciência e Tecnologia do Maranhão, 4º período. Conclusão em jul/2027."
+    }
+  ],
+  "languages": "Português nativo. Inglês B1, espanhol B1 e Libras em nível intermediário.",
+  "contact": {
+    "intro": "Respondo e-mails e mensagens para conversas sobre estágio e vagas em desenvolvimento.",
+    "items": [
+      {"label": "E-mail", "url": "mailto:marcelejoao7@gmail.com", "text": "marcelejoao7@gmail.com"},
+      {"label": "LinkedIn", "url": "https://www.linkedin.com/in/joao-marcele-a30407336/", "text": "LinkedIn"},
+      {"label": "WhatsApp", "url": "https://wa.me/5599981897798", "text": "WhatsApp"},
+      {"label": "GitHub", "url": "https://github.com/JNeves07", "text": "GitHub"}
+    ]
+  },
+  "footer": {
+    "year": 2026,
+    "name": "João Marcelo Neves de Lima"
+  }
+}

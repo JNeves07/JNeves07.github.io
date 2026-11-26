@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>João Marcelo | Desenvolvedor Back-End</title>
 <meta name="description" content="Portfólio de João Marcelo Neves de Lima, engenheiro de software e programador back-end em Caxias, Maranhão.">
+<meta name="keywords" content="PHP, Laravel, C#, Python, Docker, APIs, IoT, MySQL, .NET, portfólio">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%234169E1'/%3E%3Ctext x='32' y='43' font-family='Arial' font-size='28' font-weight='700' text-anchor='middle' fill='white'%3EJM%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,8 @@ html{scroll-behavior:smooth;scroll-padding-top:72px}
 body{margin:0;background:var(--bg);color:var(--text);font:400 1.0625rem/1.65 Figtree,system-ui,sans-serif}
 a{color:var(--link)}
 a:focus-visible{outline:3px solid var(--white);outline-offset:3px}
+.skip{position:absolute;left:-9999px;top:0}
+.skip:focus{left:16px;top:16px;z-index:10;padding:8px 14px;border-radius:6px;background:var(--white);color:var(--bg);font-weight:600}
 h1,h2,h3{font-family:"Bricolage Grotesque",Figtree,sans-serif;line-height:1.1;margin:0;color:var(--white)}
 .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
 .top{position:sticky;top:0;z-index:5;background:rgba(7,16,38,.94);border-bottom:1px solid var(--line)}
@@ -65,9 +68,10 @@ footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);f
 </style>
 </head>
 <body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#">João Marcelo</a>
+    <a class="brand" href="#conteudo">João Marcelo</a>
     <nav aria-label="Principal">
       <a href="#projetos">Projetos</a>
       <a href="#tecnologias">Tecnologias</a>
@@ -77,11 +81,11 @@ footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);f
   </div>
 </header>
 
-<main>
-<section class="hero" style="border-top:0">
+<main id="conteudo">
+<section class="hero" style="border-top:0" aria-labelledby="hero-titulo">
   <div class="wrap">
     <div>
-      <h1>João Marcelo Neves de Lima</h1>
+      <h1 id="hero-titulo">João Marcelo Neves de Lima</h1>
       <p class="role">Programador back-end e engenheiro de software</p>
       <p class="lead">Desenvolvo sistemas institucionais com PHP, Laravel e Docker na Fábrica de Software do UniFacema, em Caxias, Maranhão. Estou em busca de estágio ou vaga em desenvolvimento de sistemas.</p>
       <div class="btns">
@@ -100,36 +104,36 @@ footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);f
 {
   <span class="k">"cargo"</span>: "Programador Back-End",
   <span class="k">"onde"</span>: "Fábrica de Software, UniFacema",
-  <span class="k">"stack"</span>: ["PHP", "Laravel", "Docker", "Python"],
+  <span class="k">"stack"</span>: ["PHP", "Laravel", "Docker", "Python", "MySQL"],
   <span class="k">"formacao"</span>: ["Eng. de Software", "ADS"],
   <span class="k">"status"</span>: "disponível para estágio"
-}</div>
+}
+    </div>
   </div>
 </section>
 
-<section id="projetos"><div class="wrap">
-  <h2>Projetos</h2>
-  <!-- EDITE: troque as descrições abaixo pelo que cada projeto faz de verdade -->
+<section id="projetos" aria-labelledby="projetos-titulo"><div class="wrap">
+  <h2 id="projetos-titulo">Projetos</h2>
   <div class="proj"><h3>Sistema Acadêmico</h3><p>Sistema para organizar e controlar dados acadêmicos.</p><a class="go" href="https://github.com/JNeves07/Sistema-Academico">Ver no GitHub</a></div>
   <div class="proj"><h3>Pokédex</h3><p>Aplicação que lista e exibe informações de Pokémon.</p><a class="go" href="https://github.com/JNeves07/pokedex">Ver no GitHub</a></div>
   <div class="proj"><h3>Programação em Banco de Dados</h3><p>Exercícios de modelagem e consultas SQL.</p><a class="go" href="https://github.com/JNeves07/Programa-o-em-Banco-de-dados">Ver no GitHub</a></div>
   <p style="margin-top:24px"><a href="https://github.com/JNeves07?tab=repositories">Ver todos os repositórios</a></p>
 </div></section>
 
-<section id="tecnologias"><div class="wrap">
-  <h2>Tecnologias</h2>
+<section id="tecnologias" aria-labelledby="tecnologias-titulo"><div class="wrap">
+  <h2 id="tecnologias-titulo">Tecnologias</h2>
   <dl>
-    <dt>Back-end</dt><dd>PHP, Laravel, Python, .NET e ASP.NET, APIs</dd>
-    <dt>Front-end</dt><dd>HTML5, CSS3, JavaScript, TypeScript, React, Bootstrap</dd>
-    <dt>Infra e dados</dt><dd>Docker, Docker Compose, Linux, bancos de dados, SQL, Git e GitHub</dd>
+    <dt>Back-end</dt><dd>PHP, Laravel, Python, C#, .NET, ASP.NET e APIs REST</dd>
+    <dt>Front-end</dt><dd>HTML5, CSS3, JavaScript, TypeScript, React, Bootstrap e Tailwind CSS</dd>
+    <dt>Infra e dados</dt><dd>Docker, Docker Compose, Linux, Nginx, MySQL, PostgreSQL, SQL, Git e GitHub</dd>
     <dt>IoT</dt><dd>Sensores, microcontroladores e redes aplicadas à Internet das Coisas</dd>
     <dt>Método</dt><dd>Kanban, análise de dados e estruturas de dados com Python</dd>
   </dl>
 </div></section>
 
-<section id="sobre"><div class="wrap two">
+<section id="sobre" aria-labelledby="sobre-titulo"><div class="wrap two">
   <div>
-    <h2>Sobre</h2>
+    <h2 id="sobre-titulo">Sobre</h2>
     <p>Antes de programar, fui redator e professor. Por isso escrevo código claro e explico soluções técnicas de um jeito que qualquer pessoa da equipe entende.</p>
     <p style="color:var(--muted)">Hoje trabalho no back-end de sistemas que organizam, controlam e analisam dados institucionais, e dou apoio ao front-end quando preciso.</p>
   </div>
@@ -148,11 +152,17 @@ footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);f
   </div>
 </div></section>
 
-<section id="formacao"><div class="wrap two">
+<section id="formacao" aria-labelledby="formacao-titulo"><div class="wrap two">
   <div>
-    <h2>Formação</h2>
-    <div class="item"><h3>Engenharia de Software</h3><div class="meta">Universidade Anhanguera (EAD), 7º período. Conclusão em jul/2026.</div></div>
-    <div class="item"><h3>Análise e Desenvolvimento de Sistemas</h3><div class="meta">Centro Universitário de Ciência e Tecnologia do Maranhão, 4º período. Conclusão em jul/2027.</div></div>
+    <h2 id="formacao-titulo">Formação</h2>
+    <div class="item">
+      <h3>Engenharia de Software</h3>
+      <div class="meta">Universidade Anhanguera (EAD), 7º período. Conclusão em jul/2026.</div>
+    </div>
+    <div class="item">
+      <h3>Análise e Desenvolvimento de Sistemas</h3>
+      <div class="meta">Centro Universitário de Ciência e Tecnologia do Maranhão, 4º período. Conclusão em jul/2027.</div>
+    </div>
   </div>
   <div>
     <h2>Idiomas</h2>
@@ -160,16 +170,16 @@ footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--muted);f
   </div>
 </div></section>
 
-<section id="contato" class="contact"><div class="wrap two">
+<section id="contato" class="contact" aria-labelledby="contato-titulo"><div class="wrap two">
   <div>
-    <h2>Contato</h2>
+    <h2 id="contato-titulo">Contato</h2>
     <p style="color:var(--muted)">Respondo e-mails e mensagens para conversas sobre estágio e vagas em desenvolvimento.</p>
   </div>
   <ul>
-    <li><a href="mailto:marcelejoao7@gmail.com">marcelejoao7@gmail.com</a></li>
-    <li><a href="https://www.linkedin.com/in/joao-marcele-a30407336/">LinkedIn</a></li>
-    <li><a href="https://wa.me/5599981897798">WhatsApp</a></li>
-    <li><a href="https://github.com/JNeves07">GitHub</a></li>
+    <li><a href="mailto:marcelejoao7@gmail.com" aria-label="E-mail">marcelejoao7@gmail.com</a></li>
+    <li><a href="https://www.linkedin.com/in/joao-marcele-a30407336/" aria-label="LinkedIn">LinkedIn</a></li>
+    <li><a href="https://wa.me/5599981897798" aria-label="WhatsApp">WhatsApp</a></li>
+    <li><a href="https://github.com/JNeves07" aria-label="GitHub">GitHub</a></li>
   </ul>
 </div></section>
 </main>

@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.13", "3.15"]
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Executar testes
+        run: python -m unittest discover -s tests -v
+
+      - name: Conferir index.html versionado
+        run: python build.py --check
+
+      - name: Gerar index.html
+        run: python build.py
+
+      - name: Enviar site como artifact
+        if: matrix.python-version == '3.15'
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-index
+          path: index.html
+          if-no-files-found: error
