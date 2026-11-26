@@ -34,21 +34,21 @@
   ],
   "projects": [
     {
-      "name": "Sistema Acadêmico",
+      "name": "Academia.NET",
       "description": "Sistema para organizar e controlar dados acadêmicos.",
-      "url": "https://github.com/JNeves07/Sistema-Academico",
+      "url": "https://github.com/JNeves07/Academia.NET",
       "link_label": "Ver no GitHub"
     },
     {
-      "name": "Pokédex",
-      "description": "Aplicação que lista e exibe informações de Pokémon.",
-      "url": "https://github.com/JNeves07/pokedex",
+      "name": "PokeDex-API",
+      "description": "API REST que lista e exibe informações de Pokémon.",
+      "url": "https://github.com/JNeves07/PokeDex-API",
       "link_label": "Ver no GitHub"
     },
     {
-      "name": "Programação em Banco de Dados",
-      "description": "Exercícios de modelagem e consultas SQL.",
-      "url": "https://github.com/JNeves07/Programa-o-em-Banco-de-dados",
+      "name": "SQL-Lab",
+      "description": "Modelagem e consultas SQL em Laravel com query builder.",
+      "url": "https://github.com/JNeves07/SQL-Lab",
       "link_label": "Ver no GitHub"
     }
   ],
